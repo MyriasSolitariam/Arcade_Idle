@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1899321771020815657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795534638554550845}
+  - component: {fileID: 6886194298236360228}
+  m_Layer: 0
+  m_Name: RecourceSpawner
+  m_TagString: RecourseSpawner
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795534638554550845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899321771020815657}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6886194298236360228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899321771020815657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122887365e59efd44a598e582a5c6ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RecoursesLists:
+  - Recourse:
+    - {fileID: 626745458863803748, guid: bc1ee30726c64514cbeff1cb7049cb36, type: 3}
+    - {fileID: 6013748096886895208, guid: 3a57a857d01607144911efe81c956087, type: 3}
+    - {fileID: 5432901367348231028, guid: ce23479f356e6b84bb9c4fcd3c159a6f, type: 3}
+  - Recourse:
+    - {fileID: 1073534598055714748, guid: 09c57d48b82ac3f408076adfceb8cd30, type: 3}
+    - {fileID: 3659745075533407762, guid: c3dfea68566bffd4189d8e172d313206, type: 3}
+    - {fileID: 3096656148606193404, guid: f390bfb15371c284cae3fd2bf8bd7d10, type: 3}
+  - Recourse:
+    - {fileID: 6042614649392340101, guid: 4de0850af8e884e43b77c767e518e9b6, type: 3}
+  RecourseSpawnChance:
+  - 0.6
+  - 0.38
+  - 0.02
+  SpawnedObject: {fileID: 0}
